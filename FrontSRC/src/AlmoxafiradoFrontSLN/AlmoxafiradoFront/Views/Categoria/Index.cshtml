@@ -1,14 +1,14 @@
-﻿<div id="container" class="containerCategoria">
-    <div class="container1Categoria">
+﻿<div id="container" class="containerentrada">
+    <div class="container1entrada">
         <div>
-            <button class="btnCategoria">
+            <button class="btnentrada">
                 Novo
             </button>
         </div>
     </div>
-    <div class="container2Categoria">
-        <table class="TableContainerCategoria">
-            <thead class="theadCategoria">
+    <div class="container2entrada">
+        <table class="TableContainerentrada">
+            <thead class="theadentrada">
             <th>
                 Código
             </th>
@@ -21,15 +21,15 @@
             </thead>
             <tbody>
            
-                @foreach (var item in ViewBag.Categorias)
+                @foreach (var item in ViewBag.entradas)
                 {
                     <tr>
-                        <td class="tdCategoria">@item.codigo</td>
-                        <td class="tdCategoria">@item.descricao</td>
-                        <td class="tdCategoria">
-                            <div class="IconesContainerCategoria">
+                        <td class="tdentrada">@item.codigo</td>
+                        <td class="tdentrada">@item.descricao</td>
+                        <td class="tdentrada">
+                            <div class="IconesContainerentrada">
                                 <img class="iconelixo" src="/imagens/trash-solid.svg"/>                               
-                                <div class="Icone2Categoria">
+                                <div class="Icone2entrada">
                                 </div>
                             </div>
                         </td>
@@ -41,9 +41,9 @@
         
         </table>
     </div>
-    <div class="container3Categoria">
+    <div class="container3entrada">
         <div>
-            <button class="btnCategoria BtnAzulColorCategoria">
+            <button class="btnentrada BtnAzulColorentrada">
                 Voltar
             </button>
         </div>
