@@ -1,2 +1,95 @@
-﻿body {
+﻿.container produto {
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 produto {
+    width: 100%;
+    height: 15%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+
+.container2 produto {
+    width: 100%;
+    height: 70%;
+    /* background-color: green; */
+}
+
+.container3 produto {
+    width: 100%;
+    height: 15%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn produto  {
+    padding: 0.3rem;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-weight: bolder;
+}
+
+.BtnAzulColor produto {
+    background-color: cyan !important;
+}
+
+.theadC produto {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.TableContainerproduto {
+    width: 100%;
+    font-size: 15pt !important;
+}
+
+.TableContainerproduto td, th {
+    border: 1px solid black;
+}
+
+.tdproduto  {
+    background-color: white;
+    color: black;
+}
+
+.Icone1 produto {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.Icone2produto  {
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.IconesContainerproduto  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .container produto  {
+        width: 82%;
+    }
 }
